@@ -417,10 +417,6 @@
 		.button.big {
 			font-size: 1.75em;
 			padding: 0 1.1em;
-			-moz-justify-content: center;
-			-webkit-justify-content: center;
-			-ms-justify-content: center;
-			justify-content: center;
 		}
 
 		input[type="submit"].disabled, input[type="submit"]:disabled,
@@ -490,6 +486,7 @@
 			padding-right: 3.5em;
 			width: 50%;
 			font-size: 1.35em;
+			margin: 0;
 		}
 
 			#contact .column.social {
@@ -1574,11 +1571,11 @@
 		@media screen and (max-width: 1280px) {
 
 			#banner {
-				min-height: 45vh;
-				height: 45vh;
+				min-height: 55vh;
+				height: 55vh;
 			}
 			#banner h1 {
-				font-size: 3em;
+				font-size: 3.5em;
 			}
 
 		}
@@ -1586,13 +1583,13 @@
 		@media screen and (max-width: 736px) {
 
 			#banner {
-				min-height: 45vh;
-				height: 45vh;
+				min-height: 55vh;
+				height: 55vh;
 				background-attachment: scroll;
 			}
 
 				#banner h1 {
-					font-size: 3em;
+					font-size: 3.5em;
 				}
 
 				#banner p {
@@ -1653,7 +1650,7 @@
 
 		#footer .copyright {
 			color: #bfbfbf;
-			font-size: 0.9em;
+			font-size: 0.5em;
 			margin: 0 0 2em 0;
 			padding: 0 1em;
 			text-align: center;
