@@ -808,6 +808,7 @@
 
 			.gallery header.special {
 				color: #FFF;
+				font-size: 1.05em;
 				-moz-justify-content: center;
 				-webkit-justify-content: center;
 				-ms-justify-content: center;
@@ -1583,11 +1584,11 @@
 			}
 
 				#banner h1 {
-					font-size: 2.25em;
+					font-size: 6em;
 				}
 
 				#banner p {
-					font-size: 1.25em;
+					font-size: 1.45em;
 				}
 
 		}
