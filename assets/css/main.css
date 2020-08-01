@@ -801,6 +801,7 @@
 		}
 
 			.gallery header.special {
+				color: #FFF;
 				-moz-justify-content: center;
 				-webkit-justify-content: center;
 				-ms-justify-content: center;
@@ -810,6 +811,10 @@
 			@media screen and (max-width: 736px) {
 
 				.gallery header {
+					-moz-justify-content: center;
+					-webkit-justify-content: center;
+					-ms-justify-content: center;
+					justify-content: center;
 					display: block;
 				}
 
@@ -818,6 +823,10 @@
 			@media screen and (max-width: 480px) {
 
 				.gallery header h2 {
+					-moz-justify-content: center;
+					-webkit-justify-content: center;
+					-ms-justify-content: center;
+					justify-content: center;
 					margin-bottom: .5em;
 				}
 
