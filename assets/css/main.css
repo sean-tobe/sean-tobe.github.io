@@ -417,6 +417,10 @@
 		.button.big {
 			font-size: 1.75em;
 			padding: 0 1.1em;
+			-moz-justify-content: center;
+			-webkit-justify-content: center;
+			-ms-justify-content: center;
+			justify-content: center;
 		}
 
 		input[type="submit"].disabled, input[type="submit"]:disabled,
@@ -843,6 +847,10 @@
 			font-size: 1.5em;
 			text-align: center;
 			margin-top: 4em;
+			-moz-justify-content: center;
+			-webkit-justify-content: center;
+			-ms-justify-content: center;
+			justify-content: center;
 		}
 
 		.gallery .content {
