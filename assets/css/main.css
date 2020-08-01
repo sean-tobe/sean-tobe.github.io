@@ -415,7 +415,7 @@
 		input[type="button"].big,
 		button.big,
 		.button.big {
-			font-size: 1.5em;
+			font-size: 1.0em;
 			padding: 0 1.1em;
 		}
 
@@ -1613,7 +1613,7 @@
 			@media screen and (max-width: 980px) {
 
 				#main #header {
-					padding: 1.15em 2em;
+					padding: 0em 2em;
 				}
 
 			}
