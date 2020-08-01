@@ -316,7 +316,7 @@
 		-webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-		background: rgba(70, 22, 22, 0.65);
+		background: rgba(70, 22, 22, 0.75);
 		color: #FFF;
 		border-radius: 3px;
 		border: 0;
@@ -500,7 +500,7 @@
 			}
 
 			#contact .column.social h3 {
-				color: rgba(55, 55, 55, .85);
+				color: rgba(55, 55, 55, .95);
 			}
 
 			@media screen and (max-width: 980px) {
@@ -809,7 +809,7 @@
 		}
 
 			.gallery header.special {
-				color: rgba(255, 255, 255, .5);
+				color: rgba(255, 255, 255, .75);
 				font-size: 1.05em;
 				-moz-justify-content: center;
 				-webkit-justify-content: center;
@@ -1470,7 +1470,7 @@
 				@media screen and (max-width: 736px) {
 
 					#nav ul li {
-						width: 2.25em;
+						width: 2.1em;
 					}
 
 				}
