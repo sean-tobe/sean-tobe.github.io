@@ -35,7 +35,16 @@
 						<section id="banner">
 							<div class="inner">
 								<h1>SEAN TOBE</h1>
-								<p></p>
+									<p id="data" </p>
+									<script>
+									var what = 'This website is under maintenance as of '
+								
+									var today = new Date();
+
+									var date = what+today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate()+'.';
+
+									document.getElementById("data").innerHTML = date;
+									</script>
 								
 								<ul class="actions">
 									<li><a href="#contact" class="button alt scrolly big">CONTACT</a></li>
