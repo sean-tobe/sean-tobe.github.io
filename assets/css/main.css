@@ -415,7 +415,7 @@
 		input[type="button"].big,
 		button.big,
 		.button.big {
-			font-size: 2.0em;
+			font-size: 1.75em;
 			padding: 0 1.1em;
 		}
 
@@ -498,7 +498,7 @@
 			}
 
 			#contact .column.social h3 {
-				color: rgba(255, 255, 255, 1);
+				color: rgba(55, 55, 55, 1);
 			}
 
 			@media screen and (max-width: 980px) {
@@ -1493,11 +1493,11 @@
 		-webkit-justify-content: center;
 		-ms-justify-content: center;
 		justify-content: center;
-		min-height: 33vh;
-		height: 33vh;
+		min-height: 35vh;
+		height: 35vh;
 		position: relative;
 		background: #000;
-		background-image: url(../../images/fulls/04.jpg);
+		background-image: url(../../images/fulls/10.jpg);
 		background-size: cover;
 		background-attachment: fixed;
 		background-repeat: no-repeat;
@@ -1543,7 +1543,7 @@
 		}
 
 		#banner h1 {
-			font-size: 4em;
+			font-size: 6em;
 			line-height: 1em;
 			margin: 0 0 0.5em 0;
 			padding: 0;
