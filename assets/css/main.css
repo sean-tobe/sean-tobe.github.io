@@ -1461,7 +1461,7 @@
 				@media screen and (max-width: 736px) {
 
 					#nav ul li {
-						width: 3.4em;
+						width: 4em;
 					}
 
 				}
@@ -1567,7 +1567,7 @@
 				height: 45vh;
 			}
 			#banner h1 {
-				font-size: 3.5em;
+				font-size: 6em;
 			}
 
 		}
