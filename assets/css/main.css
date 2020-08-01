@@ -1555,6 +1555,10 @@
 
 		@media screen and (max-width: 1280px) {
 
+			#banner {
+				min-height: 33vh;
+				height: 33vh;
+			}
 			#banner h1 {
 				font-size: 3.5em;
 			}
@@ -1564,6 +1568,8 @@
 		@media screen and (max-width: 736px) {
 
 			#banner {
+				min-height: 33vh;
+				height: 33vh;
 				background-attachment: scroll;
 			}
 
