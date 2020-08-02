@@ -764,6 +764,11 @@
 	}
 
 	.gallery {
+		background-image: url("../../images/fulls/01.jpg");
+		background-attachment: fixed;
+		background-position: center;
+		background-size: cover;
+		background-repeat: no-repeat;
 		padding: 3.5em;
 		position: relative;
 		overflow: hidden;
@@ -1477,7 +1482,7 @@
 					}
 
 					#nav ul li a.active {
-						font-size: 2.5em;
+						font-size: 4em;
 						color: #19B5FE;
 					}
 
@@ -1485,7 +1490,7 @@
 
 					#nav ul li {
 						margin: 0.5em;
-						width: 2.1em;
+						width: 2em;
 						text-align: Center;
 					}
 
