@@ -810,7 +810,7 @@
 		}
 
 			.gallery header.special {
-				color: rgba(255, 255, 255, .75);
+				color: rgba(255, 255, 255, .65);
 				font-size: 1.05em;
 				-moz-justify-content: center;
 				-webkit-justify-content: center;
@@ -1240,6 +1240,12 @@
 	}
 
 	section .inner, article .inner {
+		/*ABOUT*/
+		background-image: url("../../images/fulls/01.jpg");
+		background-attachment: fixed;
+		background-position: center;
+		background-size: cover;
+		background-repeat: no-repeat;		
 		color: #FFF;
 		padding: 3.5em 0 1.5em 0;
 		padding-left: 3.5em;
@@ -1461,14 +1467,15 @@
 				#nav ul li a {
 					color: rgba(255, 255, 255, 0.9);
 					text-decoration: none;
-					font-size: 1.5em;
+					font-size: 1.33em;
 				}
 
 					#nav ul li a:hover {
-						color: white;
+						color: #19B5FE;
 					}
 
 					#nav ul li a.active {
+						font-size: 2.5em;
 						color: #19B5FE;
 					}
 
@@ -1476,6 +1483,7 @@
 
 					#nav ul li {
 						width: 2.1em;
+						text-align: Center;
 					}
 
 				}
@@ -1494,7 +1502,7 @@
 		display: -ms-flexbox;
 		-ms-flex-pack: center;
 		-ms-flex-align: center;
-		padding: 8em 0 6em 0;
+		padding: 8em 0 7em 0;
 		-moz-align-items: center;
 		-webkit-align-items: center;
 		-ms-align-items: center;
@@ -1556,8 +1564,23 @@
 			padding: 0 2em;
 		}
 
+		#banner .ban-inner {
+			-moz-transform: none;
+			-webkit-transform: none;
+			-ms-transform: none;
+			transform: none;
+			-moz-transition: opacity 1s ease, transform 1s ease;
+			-webkit-transition: opacity 1s ease, transform 1s ease;
+			-ms-transition: opacity 1s ease, transform 1s ease;
+			transition: opacity 1s ease, transform 1s ease;
+			position: relative;
+			opacity: 1;
+			z-index: 3;
+			padding: 0 2em;
+		}
+
 		#banner h1 {
-			font-size: 6em;
+			font-size: 6.5em;
 			line-height: 1em;
 			margin: 0 0 0.5em 0;
 			padding: 0;
@@ -1615,7 +1638,7 @@
 		width: 100%;
 	}
 
-		#main #header {
+/*		#main #header {
 			background-image: url("../../images/fulls/03.jpg");
 			background-attachment: fixed;
 			background-position: center;
@@ -1646,7 +1669,7 @@
 					text-align: center;
 				}
 
-			}
+			}*/
 
 /* Footer */
 
