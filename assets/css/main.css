@@ -355,7 +355,7 @@
 		button:hover,
 		.button:hover {
 			color: #FFF;
-			background: #019be3;
+			background: rgba(32, 109, 61, .85);
 		}
 
 		input[type="submit"].alt,
@@ -476,7 +476,7 @@
 		}
 
 		#contact .column {
-			background-image: url("../../images/fulls/01.jpg");
+			background-image: url("../../assets/images/01.jpg");
 			background-attachment: fixed;
 			background-position: center;
 			background-size: cover;
@@ -491,7 +491,7 @@
 		}
 
 			#contact .column.social {
-					background-image: url("../../images/fulls/01.jpg");
+					background-image: url("../../assets/images/01.jpg");
 					background-attachment: fixed;
 					background-position: center;
 					background-size: cover;
@@ -853,7 +853,7 @@
 		}
 
 		.gallery .content {
-/*			background-image: url("../../images/fulls/03.jpg");
+/*			background-image: url("../../assets/images/03.jpg");
 			background-attachment: fixed;
 			background-position: center;
 			background-size: cover;
@@ -912,7 +912,7 @@
 				@media screen and (max-width: 736px) {
 
 					.gallery .content .media {
-						width: 100%;
+						width: 50%;
 					}
 
 				}
@@ -920,7 +920,7 @@
 				@media screen and (max-width: 480px) {
 
 					.gallery .content .media {
-						width: 100%;
+						width: 50%;
 					}
 
 				}
@@ -1248,7 +1248,7 @@
 
 	section .inner, article .inner {
 		/*ABOUT*/
-		background-image: url("../../images/fulls/01.jpg");
+		background-image: url("../../assets/images/01.jpg");
 		background-attachment: fixed;
 		background-position: center;
 		background-size: cover;
@@ -1295,6 +1295,7 @@
 		-webkit-justify-content: space-between;
 		-ms-justify-content: space-between;
 		justify-content: space-between;
+		font-size: .85em;
 	}
 
 		section .columns.double .column, article .columns.double .column {
@@ -1446,7 +1447,7 @@
 /* Menu */
 
 	#nav {
-		background-image: url("../../images/fulls/01.jpg");
+		background-image: url("../../assets/images/01.jpg");
 		background-attachment: fixed;
 		background-position: center;
 		background-size: cover;
@@ -1533,7 +1534,7 @@
 		height: 35vh;
 		position: relative;
 		background: #000;
-		background-image: url(../../images/bg_new.gif);
+		background-image: url(../../assets/images/bg.gif);
 		background-size: cover;
 		background-attachment: fixed;
 		background-repeat: no-repeat;
@@ -1646,7 +1647,7 @@
 /* Main */
 
 	#main {
-		background-image: url("../../images/fulls/01.jpg");
+		background-image: url("../../assets/images/01.jpg");
 		background-attachment: fixed;
 		background-position: center;
 		background-size: cover;
@@ -1655,7 +1656,7 @@
 	}
 
 /*		#main #header {
-			background-image: url("../../images/fulls/03.jpg");
+			background-image: url("../../assets/images/03.jpg");
 			background-attachment: fixed;
 			background-position: center;
 			background-size: cover;
@@ -1691,7 +1692,7 @@
 
 	#footer {
 		padding: 0 0 0 0;
-		background-image: url("../../images/fulls/01.jpg");
+		background-image: url("../../assets/images/01.jpg");
 		background-attachment: fixed;
 		background-position: center;
 		background-size: cover;
