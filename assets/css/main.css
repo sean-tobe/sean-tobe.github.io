@@ -912,7 +912,7 @@
 				@media screen and (max-width: 736px) {
 
 					.gallery .content .media {
-						width: 50%;
+						width: 20%;
 					}
 
 				}
@@ -920,7 +920,7 @@
 				@media screen and (max-width: 480px) {
 
 					.gallery .content .media {
-						width: 50%;
+						width: 20%;
 					}
 
 				}
@@ -1554,11 +1554,11 @@
 			content: '';
 			display: block;
 			background-color: rgba(10,10,10, .65);
-			height: 91%;
+			height: 100%;
 			left: 0;
 			opacity: 0.65;
 			position: absolute;
-			top: 0.5em;
+			top: 0;
 			width: 100%;
 			z-index: 1;
 		}
@@ -1598,7 +1598,7 @@
 			line-height: 1em;
 			margin: 0 0 0.5em 0;
 			padding: 0;
-			color: #efefff;
+			color: #f7f7ff;
 		}
 
 		#banner p {
@@ -1646,7 +1646,7 @@
 /* Main */
 
 	#main {
-		background-image: url("../../images/bg_new.gif");
+		background-image: url("../../images/fulls/01.jpg");
 		background-attachment: fixed;
 		background-position: center;
 		background-size: cover;
