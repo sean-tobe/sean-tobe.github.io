@@ -415,7 +415,7 @@
 		input[type="button"].big,
 		button.big,
 		.button.big {
-			font-size: 1.75em;
+			font-size: 1.5em;
 			padding: 0 0.5em;
 		}
 
@@ -1492,6 +1492,11 @@
 						margin: 0.5em;
 						width: 1em;
 						text-align: Center;
+					}
+
+					#nav ul li a.active {
+						font-size: 2.5em;
+						color: #19B5FE;
 					}
 
 				}
