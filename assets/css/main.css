@@ -853,11 +853,12 @@
 		}
 
 		.gallery .content {
-			background-image: url("../../images/fulls/03.jpg");
+/*			background-image: url("../../images/fulls/03.jpg");
 			background-attachment: fixed;
 			background-position: center;
 			background-size: cover;
-			background-repeat: no-repeat;			display: -ms-flexbox;
+			background-repeat: no-repeat;	*/		
+			display: -ms-flexbox;
 			display: -moz-flex;
 			display: -webkit-flex;
 			display: -ms-flex;
@@ -872,6 +873,7 @@
 			justify-content: flex-start;
 		}
 
+
 			.gallery .content .media {
 				-moz-animation: gallery 0.75s ease-out 0.4s forwards;
 				-webkit-animation: gallery 0.75s ease-out 0.4s forwards;
@@ -882,7 +884,7 @@
 				opacity: 0;
 				position: relative;
 				/* media width */
-				width: 25%;
+				width: 20%;
 			}
 
 				.gallery .content .media a {
@@ -918,7 +920,7 @@
 				@media screen and (max-width: 480px) {
 
 					.gallery .content .media {
-						width: 100%;
+						width: 50%;
 					}
 
 				}
@@ -1481,7 +1483,7 @@
 					}
 
 					#nav ul li a.active {
-						font-size: 4em;
+						font-size: 4.5em;
 						color: #19B5FE;
 					}
 
@@ -1494,7 +1496,7 @@
 					}
 
 					#nav ul li a.active {
-						font-size: 2em;
+						font-size: 2.05em;
 						color: #19B5FE;
 					}
 
@@ -1531,7 +1533,7 @@
 		height: 35vh;
 		position: relative;
 		background: #000;
-		background-image: url(../../images/fulls/03.jpg);
+		background-image: url(../../images/bg_new.gif);
 		background-size: cover;
 		background-attachment: fixed;
 		background-repeat: no-repeat;
@@ -1551,12 +1553,12 @@
 			transition-delay: 0.25s;
 			content: '';
 			display: block;
-			background-color: #000;
-			height: 100%;
+			background-color: rgba(10,10,10, .65);
+			height: 91%;
 			left: 0;
 			opacity: 0.65;
 			position: absolute;
-			top: 0;
+			top: 0.5em;
 			width: 100%;
 			z-index: 1;
 		}
@@ -1596,7 +1598,7 @@
 			line-height: 1em;
 			margin: 0 0 0.5em 0;
 			padding: 0;
-			color: #FFF;
+			color: #efefff;
 		}
 
 		#banner p {
@@ -1699,7 +1701,7 @@
 		#footer .copyright {
 			color: #bfbfbf;
 			font-size: 0.5em;
-			margin: 0 0 2em 0;
+			margin: 0 0 1em 0;
 			padding: 0 1em;
 			text-align: center;
 		}
