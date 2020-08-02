@@ -1491,12 +1491,12 @@
 				}
 
 					#nav ul li a:hover {
-						color: rgba(42, 119, 71, .75);
+						color: rgba(42, 139, 71, .75);
 					}
 
 					#nav ul li a.active {
 						font-size: 4.5em;
-						color: rgba(42, 119, 71, .95);
+						color: rgba(42, 139, 71, .95);
 					}
 
 				@media screen and (max-width: 736px) {
@@ -1508,8 +1508,8 @@
 					}
 
 					#nav ul li a.active {
-						font-size: 2.05em;
-						color: #19B5FE;
+						font-size: 2.35em;
+						color: rgba(42, 139, 71, .95);
 					}
 
 				}
