@@ -764,11 +764,6 @@
 	}
 
 	.gallery {
-		background-image: url("../../images/fulls/01.jpg");
-		background-attachment: fixed;
-		background-position: center;
-		background-size: cover;
-		background-repeat: no-repeat;
 		padding: 3.5em;
 		position: relative;
 		overflow: hidden;
@@ -858,7 +853,11 @@
 		}
 
 		.gallery .content {
-			display: -ms-flexbox;
+			background-image: url("../../images/fulls/03.jpg");
+			background-attachment: fixed;
+			background-position: center;
+			background-size: cover;
+			background-repeat: no-repeat;			display: -ms-flexbox;
 			display: -moz-flex;
 			display: -webkit-flex;
 			display: -ms-flex;
@@ -1495,7 +1494,7 @@
 					}
 
 					#nav ul li a.active {
-						font-size: 2.5em;
+						font-size: 2em;
 						color: #19B5FE;
 					}
 
