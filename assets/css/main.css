@@ -1627,9 +1627,9 @@
 		@media screen and (max-width: 736px) {
 
 			#banner {
-				padding: 8em 0 5em 0;
-				min-height: 60vh;
-				height: 60vh;
+				padding: 8em 0 4em 0;
+				min-height: 65vh;
+				height: 65vh;
 				background-attachment: scroll;
 			}
 
