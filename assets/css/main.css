@@ -912,7 +912,7 @@
 				@media screen and (max-width: 736px) {
 
 					.gallery .content .media {
-						width: 20%;
+						width: 100%;
 					}
 
 				}
@@ -920,7 +920,7 @@
 				@media screen and (max-width: 480px) {
 
 					.gallery .content .media {
-						width: 20%;
+						width: 100%;
 					}
 
 				}
