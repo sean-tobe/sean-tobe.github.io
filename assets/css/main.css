@@ -143,14 +143,16 @@
 
 		}
 
+
+	/*social icon*/
 	a {
 		text-decoration: underline;
-		color: #19B5FE;
+		color: rgba(90,168,252, 0.95);
 	}
 
 		a:hover {
 			text-decoration: none;
-			color: #019be3;
+			color: rgba(42, 119, 71, .85);
 		}
 
 	strong, b {
@@ -316,9 +318,9 @@
 		-webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-		background: rgba(70, 22, 22, 0.85);
+		background: rgba(85, 22, 22, 0.85);
 		color: #FFF;
-		border-radius: 3px;
+		border-radius: 1.75px;
 		border: 0;
 		cursor: pointer;
 		display: inline-block;
@@ -337,7 +339,8 @@
 		button.active,
 		.button.active {
 			color: #FFF;
-			background: #22313F;
+			background: rgba(32, 109, 61, .75);
+			/*background: #22313F;*/
 		}
 
 			input[type="submit"].active:hover,
@@ -346,7 +349,7 @@
 			button.active:hover,
 			.button.active:hover {
 				color: #FFF;
-				background: #22313F;
+				background: rgba(32, 109, 61, .85);
 			}
 
 		input[type="submit"]:hover,
@@ -485,9 +488,9 @@
 			padding-left: 3.5em;
 			padding-right: 3.5em;
 			width: 50%;
-			font-size: 1.35em;
+			font-size: 1.5em;
 			margin: 0;
-			color: rgba(255, 255, 255, .9);
+			color: rgba(0,0,0, .9);
 		}
 
 			#contact .column.social {
@@ -496,10 +499,14 @@
 					background-position: center;
 					background-size: cover;
 					background-repeat: no-repeat;
-					color: rgba(255, 255, 255, 1);
+					color: rgba(255, 255, 255, .99);
 			}
 
 			#contact .column.social h2 {
+				color: rgba(255, 255, 255, .9);
+			}
+
+			#contact .column h2 {
 				color: rgba(255, 255, 255, .9);
 			}
 
@@ -928,7 +935,6 @@
 /* Icon */
 
 	.icon {
-		color: #FFF;
 		text-decoration: none;
 		border-bottom: none;
 		position: relative;
@@ -1474,18 +1480,18 @@
 			}
 
 				#nav ul li a {
-					color: rgba(255, 255, 255, 0.9);
+					color: rgba(255, 255, 255, 0.95);
 					text-decoration: none;
 					font-size: 1.33em;
 				}
 
 					#nav ul li a:hover {
-						color: #19B5FE;
+						color: rgba(42, 119, 71, .75);
 					}
 
 					#nav ul li a.active {
 						font-size: 4.5em;
-						color: #19B5FE;
+						color: rgba(42, 119, 71, .95);
 					}
 
 				@media screen and (max-width: 736px) {
@@ -1595,7 +1601,7 @@
 		}
 
 		#banner h1 {
-			font-size: 6.5em;
+			font-size: 6.9em;
 			line-height: 1em;
 			margin: 0 0 0.5em 0;
 			padding: 0;
