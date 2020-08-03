@@ -896,20 +896,6 @@
 				width: 20%;
 			}
 
-
-			.gallery .content .media {
-				-moz-animation: gallery 0.75s ease-out 0.4s forwards;
-				-webkit-animation: gallery 0.75s ease-out 0.4s forwards;
-				-ms-animation: gallery 0.75s ease-out 0.4s forwards;
-				animation: gallery 0.75s ease-out 0.4s forwards;
-				margin-bottom: 0;
-				overflow: hidden;
-				opacity: 0;
-				position: relative;
-				/* media width */
-				width: 20%;
-			}
-
 				.gallery .content .media a {
 					display: block;
 				}
@@ -926,10 +912,10 @@
 
 				/*media hover scale*/
 				.gallery .content .media:hover img {
-					-moz-transform: scale(1.05);
-					-webkit-transform: scale(1.05);
-					-ms-transform: scale(1.05);
-					transform: scale(1.05);
+					-moz-transform: scale(1.3);
+					-webkit-transform: scale(1.3);
+					-ms-transform: scale(1.3);
+					transform: scale(1.3);
 				}
 
 				@media screen and (max-width: 736px) {
