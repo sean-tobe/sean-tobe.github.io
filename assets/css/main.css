@@ -878,7 +878,7 @@
 			-ms-justify-content: -ms-flex-start;
 			justify-content: flex-start;
 			word-wrap: break-word;
-			background: rgba(255,255,255, .965);
+			background: rgba(255,255,255, .07);
 		}
 
 			.gallery .content .media {
@@ -1464,7 +1464,7 @@
 		background-repeat: no-repeat;
 		z-index: 10002;
 		position: relative;
-		width: 3em;
+		width: 2em;
 	}
 
 	#nav .navinspire {
@@ -1479,7 +1479,7 @@
 			position: fixed;
 			top: 1.5em;
 			left: 0;
-			font-size: 1.1em;
+			font-size: 1.25em;
 		}
 
 			#nav ul li {
@@ -1500,20 +1500,21 @@
 					}
 
 					#nav ul li a.active {
-						font-size: 4.5em;
+						font-size: 4em;
 						color: rgba(42, 139, 71, .95);
 					}
 
 				@media screen and (max-width: 736px) {
 
 					#nav ul li {
+						font-size: .75em;
 						margin: 0.5em;
 						width: .75em;
 						text-align: Center;
 					}
 
 					#nav ul li a.active {
-						font-size: 2.35em;
+						font-size: 3em;
 						color: rgba(42, 139, 71, .95);
 					}
 
