@@ -878,7 +878,7 @@
 			-ms-justify-content: -ms-flex-start;
 			justify-content: flex-start;
 			word-wrap: break-word;
-			background: rgba(255,255,255, .07);
+			background: rgba(255,255,255, .05);
 		}
 
 			.gallery .content .media {
