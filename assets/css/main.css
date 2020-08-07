@@ -1484,7 +1484,7 @@
 
 			#nav ul li {
 				padding: 0;
-				width: 2.75em;
+				width: 2em;
 				text-align: Center;
 				margin-bottom: 1em;
 			}
@@ -1500,14 +1500,14 @@
 					}
 
 					#nav ul li a.active {
-						font-size: 4em;
+						font-size: 3em;
 						color: rgba(42, 139, 71, .95);
 					}
 
 				@media screen and (max-width: 736px) {
 
 					#nav ul li {
-						font-size: .95em;
+						font-size: .75em;
 						margin: 0.5em;
 						width: .75em;
 						text-align: Center;
