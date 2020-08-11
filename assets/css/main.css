@@ -1551,7 +1551,7 @@
 		height: 36vh;
 		position: relative;
 		background: #000;
-		background-image: url(../../assets/images/banner.gif);
+		background-image: url(../../assets/images/banner.jpg);
 		background-size: cover;
 		background-attachment: fixed;
 		background-repeat: no-repeat;
@@ -1616,7 +1616,7 @@
 			line-height: 1em;
 			margin: 0 0 0.5em 0;
 			padding: 0;
-			color: #f7f7ff;
+			color: rgba(255,255,255,1);
 		}
 
 		#banner p {
