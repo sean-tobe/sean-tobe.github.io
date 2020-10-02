@@ -1550,12 +1550,12 @@
 		min-height: 36vh;
 		height: 36vh;
 		position: relative;
-		background: #000;
+/*		background: #000;
 		background-image: url(../../assets/images/banner.jpg);
 		background-size: cover;
 		background-attachment: fixed;
 		background-repeat: no-repeat;
-		background-position: center;
+		background-position: center;*/
 		text-align: center;
 		color: #FFF;
 	}
