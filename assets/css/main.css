@@ -878,7 +878,8 @@
 			-ms-justify-content: -ms-flex-start;
 			justify-content: flex-start;
 			word-wrap: break-word;
-			background: rgba(255,255,255, .1);
+			background: rgba(255,255,255, .09);
+			border-radius: 2em;
 		}
 
 			.gallery .content .media {
@@ -1571,7 +1572,7 @@
 			transition-delay: 0.25s;
 			content: '';
 			display: block;
-			background-color: rgba(10,10,10, .65);
+			background-color: rgba(10,10,10, .5);
 			height: 100%;
 			left: 0;
 			opacity: 0.65;
@@ -1579,6 +1580,8 @@
 			top: 0;
 			width: 100%;
 			z-index: 1;
+			border-radius: 2.5em;
+			margin: 1em 1em 1em 1em;
 		}
 
 		#banner .inner {
