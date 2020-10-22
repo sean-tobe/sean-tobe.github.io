@@ -144,15 +144,15 @@
 		}
 
 
-	/*social icon*/
+	/*social icon blue*/
 	a {
 		text-decoration: underline;
-		color: rgba(100,178,255, 0.95);
+		color: rgba(170,235,255, 0.975);
 	}
 
 		a:hover {
 			text-decoration: none;
-			color: rgba(42, 139, 71, .85);
+			color: rgba(150, 255, 150, .925);
 		}
 
 	strong, b {
@@ -375,7 +375,7 @@
 			input[type="button"].alt:hover,
 			button.alt:hover,
 			.button.alt:hover {
-				background: rgba(144, 144, 144, 0.075);
+				background: rgba(144, 144, 144, 0.5);
 				box-shadow: 0 0 0 2px rgba(144, 144, 144, 0.25);
 			}
 
@@ -467,8 +467,8 @@
 		-webkit-justify-content: space-between;
 		-ms-justify-content: space-between;
 		justify-content: space-between;
-		background: #ececec;
-	}
+/*		background: #111111;
+*/	}
 
 		#contact form {
 			margin: 0;
@@ -480,10 +480,10 @@
 
 		#contact .column {
 			background-image: url("../../assets/images/bg.jpg");
-			background-attachment: fixed;
+/*			background-attachment: fixed;
 			background-position: center;
 			background-size: cover;
-			background-repeat: no-repeat;
+			background-repeat: no-repeat;*/
 			padding: 3.5em 0 1.5em 0;
 			padding-left: 3.5em;
 			padding-right: 3.5em;
@@ -495,10 +495,10 @@
 
 			#contact .column.social {
 					background-image: url("../../assets/images/bg.jpg");
-					background-attachment: fixed;
+/*					background-attachment: fixed;
 					background-position: center;
 					background-size: cover;
-					background-repeat: no-repeat;
+					background-repeat: no-repeat;*/
 					color: rgba(255, 255, 255, .99);
 			}
 
@@ -878,7 +878,7 @@
 			-ms-justify-content: -ms-flex-start;
 			justify-content: flex-start;
 			word-wrap: break-word;
-			background: rgba(255,255,255, .09);
+			background: rgba(35, 35, 35, .05);
 			border-radius: 2em;
 		}
 
@@ -1260,11 +1260,12 @@
 	section .inner, article .inner {
 		/*ABOUT*/
 		background-image: url("../../assets/images/bg.jpg");
-		background-attachment: fixed;
+/*		background-attachment: fixed;
 		background-position: center;
 		background-size: cover;
-		background-repeat: no-repeat;		
-		font-size: 1.5em;
+		background-repeat: no-repeat;	*/	
+/*		background: #111111;
+*/		font-size: 1.5em;
 		color: #FFF;
 		padding: 3.5em 0 1.5em 0;
 		padding-left: 3.5em;
@@ -1459,11 +1460,12 @@
 
 	#nav {
 		background-image: url("../../assets/images/bg.jpg");
-		background-attachment: fixed;
+/*		background-attachment: fixed;
 		background-position: center;
 		background-size: cover;
-		background-repeat: no-repeat;
-		z-index: 10002;
+		background-repeat: no-repeat;*/
+/*		background: #111111;
+*/		z-index: 10002;
 		position: relative;
 		width: 2em;
 	}
@@ -1501,7 +1503,7 @@
 					}
 
 					#nav ul li a.active {
-						font-size: 3em;
+						font-size: 2.5em;
 						color: rgba(42, 139, 71, .95);
 					}
 
@@ -1535,7 +1537,7 @@
 		display: -ms-flexbox;
 		-ms-flex-pack: center;
 		-ms-flex-align: center;
-		padding: 8em 0 6em 0;
+		padding: 1em 0 1em 0;
 		-moz-align-items: center;
 		-webkit-align-items: center;
 		-ms-align-items: center;
@@ -1552,8 +1554,8 @@
 		height: 36vh;
 		position: relative;
 /*		background: #000;
-		background-image: url(../../assets/images/banner.jpg);
-		background-size: cover;
+*/		background-image: url(../../assets/images/banner.jpg);
+/*		background-size: cover;
 		background-attachment: fixed;
 		background-repeat: no-repeat;
 		background-position: center;*/
@@ -1572,13 +1574,13 @@
 			transition-delay: 0.25s;
 			content: '';
 			display: block;
-			background-color: rgba(10,10,10, .5);
+			background-color: rgba(175,175, 175, .045);
 			height: 100%;
-			left: 0;
-			opacity: 0.65;
+/*			left: 25em;
+*/			opacity: 0.65;
 			position: absolute;
 			top: 0;
-			width: 100%;
+			width: 77em;
 			z-index: 1;
 			border-radius: 2.5em;
 			margin: 1em 1em 1em 1em;
@@ -1668,12 +1670,13 @@
 
 	#main {
 		background-image: url("../../assets/images/bg.jpg");
-		background-attachment: fixed;
+/*		background-attachment: fixed;
 		background-position: center;
 		background-size: cover;
 		background-repeat: no-repeat;
-		width: 100%;
-	}
+		width: 100%;*/
+/*		background: #111111;
+*/	}
 
 /*		#main #header {
 			background-image: url("../../assets/images/03.jpg");
@@ -1715,10 +1718,10 @@
 	#footer {
 		padding: 0 0 0 0;
 		background-image: url("../../assets/images/bg.jpg");
-		background-attachment: fixed;
+/*		background-attachment: fixed;
 		background-position: center;
 		background-size: cover;
-		background-repeat: no-repeat;
+		background-repeat: no-repeat;*/
 		}
 
 		#footer .copyright {
