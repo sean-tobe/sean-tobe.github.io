@@ -878,7 +878,7 @@
 			-ms-justify-content: -ms-flex-start;
 			justify-content: flex-start;
 			word-wrap: break-word;
-			background: rgba(35, 35, 35, .05);
+			background: rgba(50, 50, 50, .05);
 			border-radius: 2em;
 		}
 
@@ -1267,9 +1267,9 @@
 /*		background: #111111;
 */		font-size: 1.5em;
 		color: #FFF;
-		padding: 3.5em 0 1.5em 0;
-		padding-left: 3.5em;
-		padding-right: 3.5em;
+		padding: 0.5em 0 0 0;
+		padding-left: 1em;
+		padding-right: 1em;
 	}
 
 
@@ -1467,8 +1467,8 @@
 /*		background: #111111;
 */		z-index: 10002;
 		position: relative;
-		width: 2em;
-	}
+/*		width: 12em;
+*/	}
 
 	#nav .navinspire {
 		padding: 10em 0;
@@ -1499,7 +1499,7 @@
 				}
 
 					#nav ul li a:hover {
-						color: rgba(42, 139, 71, .75);
+						color: rgba(42, 159, 255, .85);
 					}
 
 					#nav ul li a.active {
@@ -1554,7 +1554,7 @@
 		height: 36vh;
 		position: relative;
 /*		background: #000;
-*/		background-image: url(../../assets/images/banner.jpg);
+*/		
 /*		background-size: cover;
 		background-attachment: fixed;
 		background-repeat: no-repeat;
@@ -1574,6 +1574,9 @@
 			transition-delay: 0.25s;
 			content: '';
 			display: block;
+			background-image: url(../../assets/images/banner.jpg);
+			background-position: center;
+			background-size: 79em;
 			background-color: rgba(175,175, 175, .045);
 			height: 100%;
 /*			left: 25em;
@@ -1582,7 +1585,7 @@
 			top: 0;
 			width: 77em;
 			z-index: 1;
-			border-radius: 2.5em;
+			border-radius: 5.5em;
 			margin: 1em 1em 1em 1em;
 		}
 
@@ -1617,9 +1620,9 @@
 		}
 
 		#banner h1 {
-			font-size: 6.9em;
+			font-size: 8.5em;
 			line-height: 1em;
-			margin: 0 0 0.5em 0;
+			margin: 0.25em 0 0.5em 0;
 			padding: 0;
 			color: rgba(255,255,255,1);
 		}
@@ -1669,6 +1672,7 @@
 /* Main */
 
 	#main {
+		padding: 0em 5em 0em 5em;
 		background-image: url("../../assets/images/bg.jpg");
 /*		background-attachment: fixed;
 		background-position: center;
