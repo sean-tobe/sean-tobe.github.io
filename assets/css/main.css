@@ -1576,16 +1576,16 @@
 			display: block;
 			background-image: url(../../assets/images/banner.jpg);
 			background-position: center;
-			background-size: 79em;
+			background-size: 70em;
 			background-color: rgba(175,175, 175, .045);
-			height: 100%;
+			height: 90%;
 /*			left: 25em;
 */			opacity: 0.65;
 			position: absolute;
 			top: 0;
-			width: 77em;
+			width: 70em;
 			z-index: 1;
-			border-radius: 5.5em;
+			border-radius: 2.5em;
 			margin: 1em 1em 1em 1em;
 		}
 
