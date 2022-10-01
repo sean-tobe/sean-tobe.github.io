@@ -203,44 +203,16 @@
 									<ul class="icons">
 									<li><a href="https://linkedin.com/in/sean-tobe" target="_blank" class="icon fa-linkedin-square"><span class="label"></span> LinkedIn</a></li>
 									<li><a href="https://github.com/sean-tobe" target="_blank" class="icon fa-github"><span class="label"></span> GitHub</a></li>
-									<li><a href="https://www.artstation.com/stobe" target="_blank" class="icon fa-photo"><span class="label"></span> ArtStation</a></li>
-									<li><a href="https://flic.kr/s/aHskR5ne8a" target="_blank" class="icon fa-camera-retro"><span class="label"></span> Flickr</a></li>
 									</ul>
 
 									<hr>
 
 									<ul class="icons">
 									<li><a href="https://stobelight.github.io/" class="icon fa-globe"><span class="label"></span> stobelight.io</a></li>
-									<li><h5>Personal Project - Web Visualizer World (Demo)</h5></li>
-									</ul>
-
-									<ul class="icons">
 									<li><a href="https://www.youtube.com/user/TehStobe" target="_blank" class="icon brands fa-youtube"><span class="label"></span> YouTube</a></li>
 									<li><a href="https://instagram.com/stobelight" target="_blank" class="icon brands fa-instagram"><span class="label"></span> Instagram</a></li>
-									<li><a href="https://soundcloud.com/whoisgenre" target="_blank" class="icon fa-soundcloud"><span class="label"></span> SoundCloud</a></li>
+									<li><h5>Personal Project - Web Visualizer World (Demo)</h5></li>
 									</ul>
-
-<!-- 									<ul class="icons">
-									<li><a href="https://instagram.com/stobelight" target="_blank" class="icon brands fa-instagram"><span class="label"></span> Instagram</a></li>
-									<li><h3><a href="https://instagram.com/stobe"><i>@stobe</i></a></h3></li>
-									<li><h3><a href="https://instagram.com/stobelight"><i>@stobelight</i></a></h3></li>
-									</ul>
-
-									<ul class="icons">
-									</ul> -->
-
-
-<!-- 									<ul class="icons">
-										<li><a href="https://linkedin.com/in/sean-tobe" target="_blank" class="icon fa-linkedin-square"><span class="label">LinkedIn</span></a></li>
-										<li><a href="" target="" class=""><span class="label"></span></a></li>
-										<li><a href="https://github.com/sean-tobe" target="_blank" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
-										<li><a href="" target="" class=""><span class="label"></span></a></li>
-										<li><a href="https://twitch.tv/stobeeee" target="_blank" class="icon fa-twitch"><span class="label">Twitch</span></a></li>
-										<li><a href="" target="" class=""><span class="label"></span></a></li>
-										<li><a href="https://flic.kr/s/aHskR5ne8a" target="_blank" class="icon fa-flickr"><span class="label">Flickr</span></a></li>
-										<li><a href="" target="" class=""><span class="label"></span></a></li>
-										<li><a href="https://soundcloud.com/whoisgenre" target="_blank" class="icon fa-soundcloud"><span class="label">SoundCloud</span></a></li>
-									</ul> -->
 								</div>							
 							<!-- Form -->
 								<div class="column">
@@ -253,74 +225,35 @@
 									<hr>
 									<p>ICAM (Interdisciplinary Computing and the Arts)<br>
 										University of California, San Diego</p>
-									<hr><hr>
-									<h5 id="data" </h5>
+									<hr>
+									<p id="data" </p>
+									<script>
+									var what = 'This website is maintained by Sean Tobe as of '
+								
+									var today = new Date();
+
+									var date = what+(today.getMonth()+1)+'-'+today.getDate()+'-'+today.getFullYear()+'.';
+
+									document.getElementById("data").innerHTML = date;
+									</script>
 									<!-- Footer -->
 									<footer id="footer">
 										<div class="copyright">
-											<ul class="icons">
-												<a class="icon brands fa-creative-commons"><span class="label"></span><a href="https://templated.co/snapshot" target="_blank">Snapshot</a></a>
-											</ul>	
+											&copy;<a href="https://templated.co/snapshot" target="_blank">Snapshot</a>.
 										</div>
-									</footer>									
+									</footer>										
 								</div>
 						</section>
 				</section>
 		</div>
 
-		<!-- BG -->
-		<!-- <div id="bg"></div> -->
-
 		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
+		<!--<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/jquery.poptrox.min.js"></script>
 			<script src="assets/js/jquery.scrolly.min.js"></script>
 			<script src="assets/js/skel.min.js"></script>
 			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-			<script>
-			var what = 'This website is maintained by Sean Tobe as of '
-								
-			var today = new Date();
-
-			var date = what+(today.getMonth()+1)+'-'+today.getDate()+'-'+today.getFullYear()+'.';
-
-			document.getElementById("data").innerHTML = date;
-			</script>
-<!-- 		    <script type="text/javascript" src="js/patch.js" async></script>
-		    <corelibs/>
-		    <script>
-		        /**
-		         * Called when there was a cables error.
-		         * @param {string} errId - ID of the error, e.g. 'NO_WEBGL' or 'NO_WEBAUDIO'
-		         *                         when the browser does not support the used APIs
-		         * @param {string} errMsg - The error message
-		         */
-		        function showError(errId, errMsg) {
-		            alert('An error occured: ' + errId + ', ' + errMsg);
-		        }
-
-		        function patchInitialized() {
-		            // You can now access the patch object (CABLES.patch), register variable watchers and so on
-		        }
-
-		        function patchFinishedLoading() {
-		            // The patch is ready now, all assets have been loaded
-		        }
-
-		        document.addEventListener('CABLES.jsLoaded', function(event) {
-		            CABLES.patch = new CABLES.Patch({
-		                patch: CABLES.exportedPatch,
-		                prefixAssetPath: '',
-		                glCanvasId: 'glcanvas',
-		                glCanvasResizeToWindow: true,
-		                onError: showError,
-		                onPatchLoaded: patchInitialized,
-		                onFinishedLoading: patchFinishedLoading,
-		            });
-		        });
-		    </script> -->
-
+			<script src="assets/js/main.js"></script> -->
 
 	</body>
 </html>
